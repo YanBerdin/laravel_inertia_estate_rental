@@ -737,4 +737,24 @@ info All dependencies
 Done in 38.47s.
 #student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$  php artisan inertia:middleware
 Middleware created successfully.
-
+#student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ git add .
+#student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ git commit -m "Chore: app.blade,  Inertia, React, React Dom, inertia middleware Install"
+[master d137141] Chore: app.blade,  Inertia, React, React Dom, inertia middleware Install
+ 10 files changed, 6204 insertions(+), 5 deletions(-)
+ create mode 100644 backend/app/Http/Middleware/HandleInertiaRequests.php
+ create mode 100644 backend/doc/cmd.bash
+ create mode 100644 backend/doc/navicommit.md
+ create mode 100644 backend/resources/views/app.blade.php
+ create mode 100644 backend/yarn.lock
+student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ git push
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (19/19), 106.10 KiB | 554.00 KiB/s, done.
+Total 19 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), completed with 9 local objects.
+To github.com:YanBerdin/laravel_inertia_estate_rental.git
+   d5abdb6..d137141  master -> master
+#student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ php artisan make:controller HomeController
+Controller created successfully.
