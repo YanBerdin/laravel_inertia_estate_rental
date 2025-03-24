@@ -18,4 +18,6 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
+
+Route::get('/demo', [App\Http\Controllers\HomeController::class, 'demo']);

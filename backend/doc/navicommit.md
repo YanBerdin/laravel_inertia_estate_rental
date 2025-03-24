@@ -1,3 +1,0 @@
-# navicommit
-
-npx navicommit c

@@ -13,4 +13,11 @@ class HomeController extends Controller
             'name' => 'John'
         ]);
     }
+
+    public function demo()
+    {
+        return Inertia::render('Demo', [
+            'name' => 'Yan'
+        ]);
+    }
 }

@@ -758,3 +758,78 @@ To github.com:YanBerdin/laravel_inertia_estate_rental.git
    d5abdb6..d137141  master -> master
 #student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ php artisan make:controller HomeController
 Controller created successfully.
+
+
+#---------------------------------------------
+
+#student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ yarn add @inertiajs/react
+yarn add v1.22.10
+[1/4] Resolving packages...
+warning @inertiajs/react > lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+[2/4] Fetching packages...
+info fsevents@2.3.3: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-android-arm64@2.5.1: The platform "linux" is incompatible with this module.
+info "@parcel/watcher-android-arm64@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-android-arm64@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info @parcel/watcher-darwin-arm64@2.5.1: The platform "linux" is incompatible with this module.
+info "@parcel/watcher-darwin-arm64@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-darwin-arm64@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info @parcel/watcher-darwin-x64@2.5.1: The platform "linux" is incompatible with this module.
+info "@parcel/watcher-darwin-x64@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-freebsd-x64@2.5.1: The platform "linux" is incompatible with this module.
+info "@parcel/watcher-freebsd-x64@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-linux-arm-glibc@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info "@parcel/watcher-linux-arm-glibc@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-linux-arm-musl@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info "@parcel/watcher-linux-arm-musl@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-linux-arm64-glibc@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info "@parcel/watcher-linux-arm64-glibc@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-linux-arm64-musl@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info "@parcel/watcher-linux-arm64-musl@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-win32-arm64@2.5.1: The platform "linux" is incompatible with this module.
+info "@parcel/watcher-win32-arm64@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-win32-arm64@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info @parcel/watcher-win32-ia32@2.5.1: The platform "linux" is incompatible with this module.
+info "@parcel/watcher-win32-ia32@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @parcel/watcher-win32-ia32@2.5.1: The CPU architecture "x64" is incompatible with this module.
+info @parcel/watcher-win32-x64@2.5.1: The platform "linux" is incompatible with this module.
+info "@parcel/watcher-win32-x64@2.5.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > @babel/preset-react@7.26.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-display-name@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-jsx@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-jsx-development@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-pure-annotations@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @pmmmwh/react-refresh-webpack-plugin@0.5.15" has unmet peer dependency "webpack@>=4.43.0 <6.0.0".
+warning " > laravel-mix@6.0.49" has unmet peer dependency "@babel/core@^7.15.8".
+warning " > laravel-mix@6.0.49" has unmet peer dependency "@babel/plugin-proposal-object-rest-spread@^7.15.6".
+warning " > laravel-mix@6.0.49" has unmet peer dependency "@babel/plugin-syntax-dynamic-import@^7.8.3".
+warning " > laravel-mix@6.0.49" has unmet peer dependency "@babel/plugin-transform-runtime@^7.15.8".
+warning " > laravel-mix@6.0.49" has unmet peer dependency "@babel/preset-env@^7.15.8".
+warning " > laravel-mix@6.0.49" has unmet peer dependency "webpack@^5.60.0".
+warning " > laravel-mix@6.0.49" has unmet peer dependency "webpack-cli@^4.9.1".
+warning " > sass-loader@12.6.0" has unmet peer dependency "webpack@^5.0.0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+warning Your current version of Yarn is out of date. The latest version is "1.22.22", while you're on "1.22.10".
+info To upgrade, run the following command:
+$ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+success Saved 11 new dependencies.
+info Direct dependencies
+└─ @inertiajs/react@2.0.5
+info All dependencies
+├─ @inertiajs/core@2.0.5
+├─ @inertiajs/react@2.0.5
+├─ asynckit@0.4.0
+├─ combined-stream@1.0.8
+├─ deepmerge@4.3.1
+├─ delayed-stream@1.0.0
+├─ es-set-tostringtag@2.1.0
+├─ form-data@4.0.2
+├─ has-tostringtag@1.0.2
+├─ lodash.isequal@4.5.0
+└─ proxy-from-env@1.1.0
+Done in 12.44s.
+student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$
