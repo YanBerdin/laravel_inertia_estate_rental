@@ -833,3 +833,32 @@ info All dependencies
 └─ proxy-from-env@1.1.0
 Done in 12.44s.
 student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$
+
+#---------------------------------------------
+
+#student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ php artisan make:model Property
+Model created successfully.
+
+#student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ php artisan make:seeder PropertySeeder
+Seeder created successfully.
+
+#student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ php artisan make:migration CreatePropertiesTable
+Created Migration: 2025_03_24_234442_create_properties_table
+
+student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$ php artisan migrate:refresh --seed
+Migration table not found.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table (70.38ms)
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table (61.72ms)
+Migrating: 2019_08_19_000000_create_failed_jobs_table
+Migrated:  2019_08_19_000000_create_failed_jobs_table (51.69ms)
+Migrating: 2019_12_14_000001_create_personal_access_tokens_table
+Migrated:  2019_12_14_000001_create_personal_access_tokens_table (69.23ms)
+Migrating: 2025_03_24_234442_create_properties_table
+Migrated:  2025_03_24_234442_create_properties_table (21.10ms)
+Seeding: Database\Seeders\PropertySeeder
+Seeded:  Database\Seeders\PropertySeeder (442.22ms)
+Database seeding completed successfully.
+student@teleporter:/var/www/html/Post-Formation/laravel_inertia_estate_rental/backend$
