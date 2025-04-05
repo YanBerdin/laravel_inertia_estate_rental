@@ -1,5 +1,5 @@
 import { Link } from "@inertiajs/react";
-import Layout from "../Layout";
+//import Layout from "../Layout";
 
 export default function Home({ name, randomString }) {
     return (
@@ -12,11 +12,11 @@ export default function Home({ name, randomString }) {
             </Link>
 
             <Link href="/" method="get" as="button">
-                {" "}
-                random string : {randomString}{" "}
+                Go to Home Page random string : {randomString}
             </Link>
         </div>
     );
 }
 
-Home.layout = (page) => <Layout children={page} />;
+// layout for the page
+// Home.layout = (page) => <Layout children={page} />

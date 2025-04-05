@@ -5,7 +5,7 @@ export default function Layout({ children }) {
         <>
             <header>
                 <div>
-                    <h2> ----- My Layout Wrapper ----</h2>
+                    <h2> ----- My Layout Wrapper -----</h2>
                     {/*<Link href="/">Home</Link>
                     <Link href="/demo" method="get" as="button">
                         Demo
