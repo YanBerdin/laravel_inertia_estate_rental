@@ -1,10 +1,11 @@
 import { Link } from "@inertiajs/react";
 //import Layout from "../Layout";
 
-export default function Home({ name, randomString }) {
+export default function Home({ name, randomString, date }) {
+    console.log("Date: ", { date }); //TODO: remove this line
     return (
         <div>
-            <h1>Welcome to the Home Page {name}!</h1>
+            <h1>Welcome to the Home Page {name}!, {date.date}</h1>
             {/*<Link href="/demo">Go to Demo Page</Link>*/}
 
             {/*<Link href="/demo" method="get" as="button">

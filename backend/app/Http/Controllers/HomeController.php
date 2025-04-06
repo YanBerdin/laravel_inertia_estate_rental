@@ -12,7 +12,8 @@ class HomeController extends Controller
     {
         return Inertia::render('Home', [
             'name' => 'John',
-            'randomString' => Str::random(10)
+            'randomString' => Str::random(10),
+            'date' => new \DateTime()
         ]);
     }
 
