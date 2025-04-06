@@ -1,7 +1,7 @@
-export default function Demo() {
+export default function Demo({name}) {
     return (
         <div>
-            <h1>My Demo Page !</h1>
+            <h1>Welcome Demo Page {name}</h1>
         </div>
     );
 }

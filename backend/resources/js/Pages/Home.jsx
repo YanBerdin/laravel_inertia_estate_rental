@@ -7,12 +7,12 @@ export default function Home({ name, randomString }) {
             <h1>Welcome to the Home Page {name}!</h1>
             {/*<Link href="/demo">Go to Demo Page</Link>*/}
 
-            <Link href="/demo" method="get" as="button">
-                Go to Demo Page
-            </Link>
+            {/*<Link href="/demo" method="get" as="button">
+                From Home to Demo Page
+            </Link>*/}
 
             <Link href="/" method="get" as="button">
-                Go to Home Page random string : {randomString}
+                random string : {randomString}
             </Link>
         </div>
     );
