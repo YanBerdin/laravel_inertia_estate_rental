@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PropertyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,11 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 
+/*
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
+*/
+Route::get('/demo', [HomeController::class, 'demo']);
 
-Route::get('/demo', [App\Http\Controllers\HomeController::class, 'demo']);
+Route::get('/', [PropertyController::class, 'index']);
+
+Route::get('/bien/{property}', [PropertyController::class, 'show']);
